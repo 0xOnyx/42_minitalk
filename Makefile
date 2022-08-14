@@ -6,7 +6,7 @@
 #    By: jerdos-s <jerdos-s@student.42lausanne.ch>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/13 17:52:51 by jerdos-s          #+#    #+#              #
-#    Updated: 2022/08/13 18:05:27 by jerdos-s         ###   ########.fr        #
+#    Updated: 2022/08/14 15:59:09 by jerdos-s         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ SRC_PATH_SERVER = ./server_src/
 
 
 SRC_CLIENT = client.c client_utils.c parse_arg.c send_message.c
-SRC_SERVER = 
+SRC_SERVER = ft_itoa.c server.c server_utils.c
 
 SRCS_CLIENT = $(addprefix $(SRC_PATH_CLIENT), $(SRC_CLIENT))
 SRCS_SERVER = $(addprefix $(SRC_PATH_SERVER), $(SRC_SERVER))
